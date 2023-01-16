@@ -11,7 +11,10 @@ describe("ETHDaddy", () => {
     // deploying to blockchain
     let ethDaddy = await ETHDaddy.deploy();
     // calling the name() function
-    const result = await ethDaddy.name();
+    let result = await ethDaddy.name();
     expect(result).to.equal('ETH Daddy');
+
+    result = await ethDaddy.symbol()
+    expect(result).to.equal('ETHD');
   })
 })

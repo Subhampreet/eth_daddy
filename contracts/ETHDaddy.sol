@@ -1,6 +1,11 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-contract ETHDaddy {
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+
+contract ETHDaddy{
     string public name = "ETH Daddy";
+    string public symbol = "ETHD";
+    constructor(){}
 }
+
