@@ -7,6 +7,7 @@
 - [Hardhat](https://hardhat.org/) (Development Framework)
 - [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
 - [React.js](https://reactjs.org/) (Frontend Framework)
+- [OppenZeppelin Docs](https://docs.openzeppelin.com/contracts/3.x/erc721) 
 
 ## Requirements For Initial Setup
 - Install [NodeJS](https://nodejs.org/en/)
