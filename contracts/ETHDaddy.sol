@@ -22,7 +22,7 @@ contract ETHDaddy is ERC721{
 
     constructor(string memory _name, string memory _symbol) ERC721(_name, _symbol)
     {
-        owner = msg.sender;
+        owner = payable(msg.sender);
     }
     function list(string memory _name, uint256 _cost) public onlyOwner{
         maxSupply++;
