@@ -52,10 +52,30 @@ describe("ETHDaddy", () => {
 
   describe("Domain", () => {
     it('Returns domain attributes', async() => {
-      let domain = await ethDaddy.domains(1);
+      let domain = await ethDaddy.getDomain(1);
       expect(domain.name).to.be.equal("jack.eth");
       expect(domain.cost).to.be.equal(tokens(10));
       expect(domain.isOwned).to.be.equal(false);
     })
+  })
+
+  describe("Minting", () => {
+    const ID = 1;
+    const AMOUNT = ethers.utils.parseUnits("10", 'ether')
+
+    beforeEach(async() => {
+      const transaction = await ethDaddy.connect(owner1).mint(ID, { value: AMOUNT})
+      await transaction.wait();
+    })
+
+    it('Updates the owner', async() => {
+      const owner = await ethDaddy.ownerOf(ID)
+      expect(owner).to.be.equal(owner1.address)
+    })
+
+    // it('Updates the contract balance', async() => {
+    //   const result = await ethDaddy.getBalance()
+    //   expect(result).to.be.equal(AMOUNT)
+    // })
   })
 })

@@ -13,7 +13,7 @@ contract ETHDaddy is ERC721{
         bool isOwned;
     }
 
-    mapping(uint256 => Domain) public domains;
+    mapping(uint256 => Domain) domains;
 
     modifier onlyOwner(){
         require(msg.sender == owner);
@@ -27,6 +27,14 @@ contract ETHDaddy is ERC721{
     function list(string memory _name, uint256 _cost) public onlyOwner{
         maxSupply++;
         domains[1] = Domain(_name, _cost, false);
+    }
+
+    function mint(uint256 _id) public payable{
+        _safeMint(msg.sender, _id);
+    }
+
+    function getDomain(uint256 _id) public view returns (Domain memory){
+        return domains[_id];
     }
 }
 
