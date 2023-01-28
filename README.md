@@ -1,4 +1,4 @@
-# ETH Daddy 
+<h1 align="center">ETH Daddy </h1>
 
 ### ⭐ Technology Stack & Tools
 
