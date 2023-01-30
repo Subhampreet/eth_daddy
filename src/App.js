@@ -30,6 +30,8 @@ function App() {
 
       <Navigation account={account} setAccount={setAccount} />
 
+      <Search />
+
       <div className='cards__section'>
 
         <h2 className='cards__title'>Welcome to ETH Daddy</h2>
