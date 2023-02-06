@@ -1,6 +1,6 @@
 <h1 align="center">ETH Daddy </h1>
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoyVk4FQz3aDO0iKp9kHMS1hUTRtWwd5Vfuw&usqp=CAU" >
+<img src="https://d33wubrfki0l68.cloudfront.net/4b98f4a3c3259ea04adb9027358692a5a955f267/05acd/static/28214bb68eb5445dcb063a72535bc90c/f51a3/hero.png" >
 
 ### ⭐ Technology Stack & Tools
 
