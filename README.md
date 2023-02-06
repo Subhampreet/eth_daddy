@@ -1,5 +1,7 @@
 <h1 align="center">ETH Daddy </h1>
 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoyVk4FQz3aDO0iKp9kHMS1hUTRtWwd5Vfuw&usqp=CAU" >
+
 ### ⭐ Technology Stack & Tools
 
 - Solidity (Writing Smart Contracts & Tests)
