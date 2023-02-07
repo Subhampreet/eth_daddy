@@ -1,5 +1,7 @@
 <h1 align="center">ETH Daddy </h1>
 
+Web 3.0 Domain Site like Godaddy (Solidity, Ethereum, Hardhat, React)
+
 <img src="https://d33wubrfki0l68.cloudfront.net/4b98f4a3c3259ea04adb9027358692a5a955f267/05acd/static/28214bb68eb5445dcb063a72535bc90c/f51a3/hero.png" >
 
 ### ⭐ Technology Stack & Tools
